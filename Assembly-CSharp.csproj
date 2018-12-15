@@ -68,25 +68,12 @@
     <Compile Include="Assets\Settings.cs" />
     <Compile Include="Assets\TextInputHandle.cs" />
     <Compile Include="Assets\YesNoObjectCode.cs" />
-    <None Include="Assets\packages\Newtonsoft.Json.11.0.2\lib\portable-net40+sl5+win8+wp8+wpa81\Newtonsoft.Json.xml" />
-    <None Include="Assets\packages\Newtonsoft.Json.11.0.2\lib\net35\Newtonsoft.Json.xml" />
-    <None Include="Assets\packages\Newtonsoft.Json.11.0.2\lib\netstandard2.0\Newtonsoft.Json.xml" />
-    <None Include="Assets\packages\Newtonsoft.Json.11.0.2\lib\netstandard1.3\Newtonsoft.Json.xml" />
-    <None Include="Assets\packages\Newtonsoft.Json.11.0.2\lib\net40\Newtonsoft.Json.xml" />
     <None Include="Assets\packages\System.ValueTuple.4.5.0\useSharedDesignerContext.txt" />
-    <None Include="Assets\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.xml" />
-    <None Include="Assets\packages\System.ValueTuple.4.5.0\lib\netstandard1.0\System.ValueTuple.xml" />
     <None Include="Assets\packages\System.ValueTuple.4.5.0\version.txt" />
     <None Include="Assets\packages\System.ValueTuple.4.5.0\lib\portable-net40+sl4+win8+wp8\System.ValueTuple.xml" />
     <None Include="Assets\packages\Hl7.FhirPath.0.96.0\lib\net45\Hl7.FhirPath.xml" />
     <None Include="Assets\packages\Hl7.Fhir.STU3.0.96.0\lib\net45\Hl7.Fhir.STU3.Core.xml" />
-    <None Include="Assets\packages\Newtonsoft.Json.11.0.2\lib\netstandard1.0\Newtonsoft.Json.xml" />
-    <None Include="Assets\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.xml" />
-    <None Include="Assets\packages\Newtonsoft.Json.11.0.2\lib\net20\Newtonsoft.Json.xml" />
     <None Include="Assets\packages\Newtonsoft.Json.11.0.2\lib\portable-net45+win8+wp8+wpa81\Newtonsoft.Json.xml" />
-    <None Include="Assets\packages\Hl7.Fhir.Support.0.96.0\lib\net40\Hl7.Fhir.Support.xml" />
-    <None Include="Assets\packages\Hl7.FhirPath.0.96.0\lib\net40\Hl7.FhirPath.xml" />
-    <None Include="Assets\packages\System.ValueTuple.4.5.0\lib\net461\System.ValueTuple.xml" />
     <None Include="Assets\packages\Hl7.Fhir.Support.0.96.0\lib\net45\Hl7.Fhir.Support.xml" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/TBApp/TBAlgorithmPhoneApplicationFHIRSupport/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
@@ -295,74 +282,29 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="Hl7.Fhir.STU3.Core">
+      <HintPath>D:/TBApp/TBAlgorithmPhoneApplicationFHIRSupport/Assets/packages/Hl7.Fhir.STU3.0.96.0/lib/net45/Hl7.Fhir.STU3.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Hl7.Fhir.Support">
+      <HintPath>D:/TBApp/TBAlgorithmPhoneApplicationFHIRSupport/Assets/packages/Hl7.Fhir.Support.0.96.0/lib/net45/Hl7.Fhir.Support.dll</HintPath>
+    </Reference>
+    <Reference Include="Hl7.FhirPath">
+      <HintPath>D:/TBApp/TBAlgorithmPhoneApplicationFHIRSupport/Assets/packages/Hl7.FhirPath.0.96.0/lib/net45/Hl7.FhirPath.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>D:/TBApp/TBAlgorithmPhoneApplicationFHIRSupport/Assets/packages/Newtonsoft.Json.11.0.2/lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>D:/TBApp/TBAlgorithmPhoneApplicationFHIRSupport/Assets/packages/System.ValueTuple.4.5.0/lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>C:/Users/Alex/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/Alex/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
-    <Reference Include="System.ValueTuple">
-      <HintPath>D:/TBApp/TBAlgorithmPhoneApplicationFHIRSupport/Assets/packages/System.ValueTuple.4.5.0/lib/net461/System.ValueTuple.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>D:/TBApp/TBAlgorithmPhoneApplicationFHIRSupport/Assets/packages/Newtonsoft.Json.11.0.2/lib/net35/Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ValueTuple">
-      <HintPath>D:/TBApp/TBAlgorithmPhoneApplicationFHIRSupport/Assets/packages/System.ValueTuple.4.5.0/ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ValueTuple">
-      <HintPath>D:/TBApp/TBAlgorithmPhoneApplicationFHIRSupport/Assets/packages/System.ValueTuple.4.5.0/lib/net47/System.ValueTuple.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>D:/TBApp/TBAlgorithmPhoneApplicationFHIRSupport/Assets/packages/Newtonsoft.Json.11.0.2/lib/netstandard1.0/Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ValueTuple">
-      <HintPath>D:/TBApp/TBAlgorithmPhoneApplicationFHIRSupport/Assets/packages/System.ValueTuple.4.5.0/ref/net47/System.ValueTuple.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>D:/TBApp/TBAlgorithmPhoneApplicationFHIRSupport/Assets/packages/Newtonsoft.Json.11.0.2/lib/net45/Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>D:/TBApp/TBAlgorithmPhoneApplicationFHIRSupport/Assets/packages/Newtonsoft.Json.11.0.2/lib/net20/Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>D:/TBApp/TBAlgorithmPhoneApplicationFHIRSupport/Assets/packages/Newtonsoft.Json.11.0.2/lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ValueTuple">
-      <HintPath>D:/TBApp/TBAlgorithmPhoneApplicationFHIRSupport/Assets/packages/System.ValueTuple.4.5.0/ref/net461/System.ValueTuple.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>D:/TBApp/TBAlgorithmPhoneApplicationFHIRSupport/Assets/packages/Newtonsoft.Json.11.0.2/lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>D:/TBApp/TBAlgorithmPhoneApplicationFHIRSupport/Assets/packages/Newtonsoft.Json.11.0.2/lib/netstandard1.3/Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ValueTuple">
-      <HintPath>D:/TBApp/TBAlgorithmPhoneApplicationFHIRSupport/Assets/packages/System.ValueTuple.4.5.0/lib/netstandard1.0/System.ValueTuple.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>D:/TBApp/TBAlgorithmPhoneApplicationFHIRSupport/Assets/packages/Newtonsoft.Json.11.0.2/lib/net40/Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>D:/TBApp/TBAlgorithmPhoneApplicationFHIRSupport/Assets/packages/Newtonsoft.Json.11.0.2/lib/netstandard2.0/Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ValueTuple">
-      <HintPath>D:/TBApp/TBAlgorithmPhoneApplicationFHIRSupport/Assets/packages/System.ValueTuple.4.5.0/lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll</HintPath>
-    </Reference>
-    <Reference Include="Hl7.FhirPath">
-      <HintPath>D:/TBApp/TBAlgorithmPhoneApplicationFHIRSupport/Assets/packages/Hl7.FhirPath.0.96.0/lib/net45/Hl7.FhirPath.dll</HintPath>
-    </Reference>
-    <Reference Include="Hl7.FhirPath">
-      <HintPath>D:/TBApp/TBAlgorithmPhoneApplicationFHIRSupport/Assets/packages/Hl7.FhirPath.0.96.0/lib/net40/Hl7.FhirPath.dll</HintPath>
-    </Reference>
-    <Reference Include="Hl7.Fhir.Support">
-      <HintPath>D:/TBApp/TBAlgorithmPhoneApplicationFHIRSupport/Assets/packages/Hl7.Fhir.Support.0.96.0/lib/net45/Hl7.Fhir.Support.dll</HintPath>
-    </Reference>
-    <Reference Include="Hl7.Fhir.Support">
-      <HintPath>D:/TBApp/TBAlgorithmPhoneApplicationFHIRSupport/Assets/packages/Hl7.Fhir.Support.0.96.0/lib/net40/Hl7.Fhir.Support.dll</HintPath>
-    </Reference>
-    <Reference Include="Hl7.Fhir.STU3.Core">
-      <HintPath>D:/TBApp/TBAlgorithmPhoneApplicationFHIRSupport/Assets/packages/Hl7.Fhir.STU3.0.96.0/lib/net45/Hl7.Fhir.STU3.Core.dll</HintPath>
+    <Reference Include="System.ValueTupleRef">
+      <HintPath>D:/TBApp/TBAlgorithmPhoneApplicationFHIRSupport/Assets/packages/System.ValueTuple.4.5.0/ref/portable-net40+sl4+win8+wp8/System.ValueTupleRef.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
